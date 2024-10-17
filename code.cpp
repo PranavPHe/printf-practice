@@ -1,3 +1,8 @@
+// Pranav Pramod
+// 10/15/2024
+// Printf Practice
+// Extra: Greating message using emojis
+
 #include<iostream>
 using namespace std;
 
@@ -20,7 +25,7 @@ int main()
     cout << "Enter your grade average: " << endl;
     scanf("%f", &gradeAvg);
 
-    printf("Your name is %s.%c. You are %d years old, and you have a grade average of %.2f. Nice to meet you!", name, initial, age, gradeAvg);
+    printf("Your name is %s.%c. You are %d years old, and you have a grade average of %.2f. Nice to meet you! 😎", name, initial, age, gradeAvg);
 
     return 0;
 }
