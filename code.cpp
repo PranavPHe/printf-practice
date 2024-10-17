@@ -1,7 +1,7 @@
 // Pranav Pramod
 // 10/15/2024
 // Printf Practice
-// Extra: Greating message using emojis
+// Extra: Greating message using emojis. Also added a new input
 
 #include<iostream>
 using namespace std;
@@ -12,6 +12,7 @@ int main()
     int age;
     char initial;
     float gradeAvg;
+    int gradeLvl;
 
     cout << "Enter your name: " << endl;
     scanf("%s", &name);
@@ -25,7 +26,10 @@ int main()
     cout << "Enter your grade average: " << endl;
     scanf("%f", &gradeAvg);
 
-    printf("Your name is %s.%c. You are %d years old, and you have a grade average of %.2f. Nice to meet you! 😎", name, initial, age, gradeAvg);
+    cout << "What grade are you in?: " << endl;
+    scanf("%d", &gradeLvl);
+
+    printf("Your name is %s.%c. You are %d years old, and you have a grade average of %.2f. You are in grade %d. Nice to meet you! 😎", name, initial, age, gradeAvg, gradeLvl);
 
     return 0;
 }
