@@ -14,19 +14,19 @@ int main()
     float gradeAvg;
     int gradeLvl;
 
-    cout << "Enter your name: " << endl;
+    printf("Enter your name: ");
     scanf("%s", &name);
 
-    cout << "Enter your age: " << endl;
+    printf("Enter your age: ");
     scanf("%d", &age);
 
-    cout << "Enter your last initial: " << endl;
+    printf("Enter your last initial: ");
     scanf(" %c", &initial);
 
-    cout << "Enter your grade average: " << endl;
+    printf("Enter your grade average: ");
     scanf("%f", &gradeAvg);
 
-    cout << "What grade are you in?: " << endl;
+    printf("What grade are you in?: ");
     scanf("%d", &gradeLvl);
 
     printf("Your name is %s.%c. You are %d years old, and you have a grade average of %.2f. You are in grade %d. Nice to meet you! 😎", name, initial, age, gradeAvg, gradeLvl);
